@@ -67,9 +67,6 @@ export default function Problem() {
             Das ist kein Talent-Problem.{" "}
             <span className="text-brand">Das ist ein Fundament-Problem.</span>
           </p>
-          <p className="font-body text-bodytext/50 text-base mt-3 max-w-md mx-auto">
-            Und Fundamente lassen sich bauen – in 3 Stunden.
-          </p>
         </AnimatedSection>
       </div>
     </section>
