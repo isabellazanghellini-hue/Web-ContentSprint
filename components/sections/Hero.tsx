@@ -44,11 +44,11 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.5 }}
           className="mt-7 text-center font-body text-lg text-white/55 max-w-xl leading-relaxed"
         >
-          Das Tool ist nicht das Problem.{" "}
+          Die KI ist gut. Sie kennt nur noch nicht dich.{" "}
           <span className="text-white/80 font-medium">
-            Du hast noch kein System, das deine Marke in die KI überträgt
+            Genau das ändern wir
           </span>{" "}
-          – und genau das ändern wir.
+          — in 6 Modulen, die du sofort anwenden kannst.
         </motion.p>
 
         {/* Value proposition line */}
@@ -58,7 +58,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.65 }}
           className="mt-4 text-center font-mono text-sm text-muted/70 tracking-wide"
         >
-          6 Module &nbsp;·&nbsp; Community &nbsp;·&nbsp; ein Content-System, das ab sofort nach dir klingt
+          6 Module &nbsp;·&nbsp; Beta: 10 Plätze &nbsp;·&nbsp; Ein System, das sich wiederholt
         </motion.p>
 
         {/* CTA */}

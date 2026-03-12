@@ -79,10 +79,30 @@ export default function BetaLaunch() {
           ))}
         </div>
 
-        <AnimatedSection delay={0.5} className="text-center">
-          <p className="font-body text-white/50 text-sm mb-6 italic">
-            Die Beta-Plätze sind auf 10 Teilnehmerinnen begrenzt. Wenn sie weg sind, sind sie weg.
-          </p>
+        {/* Price justification */}
+        <AnimatedSection delay={0.5}>
+          <div className="rounded-2xl border border-white/10 bg-white/4 p-8 mb-10 space-y-4">
+            <h3 className="font-display font-bold text-white text-xl">
+              Warum 97 € statt 37 €?
+            </h3>
+            <p className="font-body text-white/65 text-[15px] leading-relaxed">
+              Weil du nicht Teilnehmerin Nummer 847 in einem Videokurs bist.
+            </p>
+            <p className="font-body text-white/65 text-[15px] leading-relaxed">
+              Du bekommst direkten Zugang zu mir. Fragen, die wirklich beantwortet werden.
+              Ein System, das auf echtem Personal-Branding-Fundament steht — nicht nur auf Content-Produktion.
+            </p>
+            <p className="font-body text-white/65 text-[15px] leading-relaxed">
+              Und du bekommst das KI Fotostudio dazu. Professionelle Markenbilder ohne Shooting.
+              Das allein ist mehr wert als die Differenz.
+            </p>
+            <p className="font-body text-white/90 font-semibold text-base">
+              10 Plätze. Wenn sie weg sind, sind sie weg.
+            </p>
+          </div>
+        </AnimatedSection>
+
+        <AnimatedSection delay={0.6} className="text-center">
           <CTAButton size="large" />
         </AnimatedSection>
       </div>

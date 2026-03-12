@@ -33,7 +33,7 @@ export default function CoreMessage() {
               <span className="text-muted font-medium">weiß, wer du wirklich bist.</span>
             </p>
             <p className="text-white/80 font-semibold text-xl">
-              Im AI Content Sprint vermittelst du ihr genau das.
+              Im AI Content Sprint vermittelst du ihr genau das. Einmal. Und danach arbeitet sie für deine Marke — nicht gegen sie.
             </p>
           </div>
         </AnimatedSection>

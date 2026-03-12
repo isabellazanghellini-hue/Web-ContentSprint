@@ -9,7 +9,11 @@ const painPoints = [
       </svg>
     ),
     headline: "Generisch trotz KI",
-    text: "Du öffnest ChatGPT, gibst dein Thema ein – und 20 Minuten später hast du Text, der sich anfühlt wie von jemandem anderen geschrieben.",
+    paragraphs: [
+      "Du öffnest ChatGPT, gibst dein Thema ein — und 20 Minuten später hast du Text, der sich anfühlt wie von jemandem anderen geschrieben. Du veränderst ein Wort hier, ein Wort dort. Es wird nicht besser.",
+      "Du weißt, dass irgendetwas fehlt. Du weißt nur nicht was.",
+      "Das Werkzeug ist nicht schuld. Es kennt dich noch nicht.",
+    ],
   },
   {
     icon: (
@@ -18,7 +22,10 @@ const painPoints = [
       </svg>
     ),
     headline: "Feed ohne Gesicht",
-    text: "Du schaust auf deinen Instagram-Feed und denkst: Das könnte von irgendjemand sein. Kein roter Faden, keine unverwechselbare Energie, keine Persönlichkeit.",
+    paragraphs: [
+      "Du schaust auf deinen Feed und denkst: Das könnte von irgendjemand sein. Kein roter Faden, keine Energie, keine Persönlichkeit. Schön designt vielleicht. Aber kalt.",
+      "Und das Schlimmste: Du weißt, dass du mehr zu sagen hast. Du siehst es nur nicht im Feed.",
+    ],
   },
   {
     icon: (
@@ -27,7 +34,10 @@ const painPoints = [
       </svg>
     ),
     headline: "Expertise unsichtbar",
-    text: "Du weißt genau, was du kannst. Aber wenn deine Wunschkundin dein Profil besucht, sieht sie es nicht. Die Expertise steckt in dir – nicht in deinem Content.",
+    paragraphs: [
+      "Du weißt genau, was du kannst. Jahrelange Erfahrung, echte Ergebnisse, tiefes Wissen. Aber wenn deine Wunschkundin dein Profil besucht — sieht sie das nicht.",
+      "Die Expertise steckt in dir. Nicht in deinem Content. Und genau das kostet dich Kunden.",
+    ],
   },
 ];
 
@@ -51,12 +61,16 @@ export default function Problem() {
                 <div className="text-brand mb-4 group-hover:text-brand-light transition-colors duration-300">
                   {point.icon}
                 </div>
-                <h3 className="font-display font-bold text-bodytext text-base mb-2">
+                <h3 className="font-display font-bold text-bodytext text-base mb-3">
                   {point.headline}
                 </h3>
-                <p className="font-body text-bodytext/65 leading-relaxed text-[15px]">
-                  {point.text}
-                </p>
+                <div className="space-y-3">
+                  {point.paragraphs.map((p, j) => (
+                    <p key={j} className="font-body text-bodytext/65 leading-relaxed text-[15px]">
+                      {p}
+                    </p>
+                  ))}
+                </div>
               </div>
             </AnimatedSection>
           ))}

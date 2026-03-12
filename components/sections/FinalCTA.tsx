@@ -60,22 +60,28 @@ export default function FinalCTA() {
 
         {/* Empathy + pivot */}
         <AnimatedSection delay={0.4}>
-          <div className="space-y-3">
-            <p className="font-body text-white/45 text-base leading-relaxed">
-              Nicht, weil du nichts zu sagen hast.
-              <br />
-              Sondern weil deiner KI das Fundament fehlt.
-            </p>
-            <div className="h-px w-16 bg-brand/30 mx-auto my-4" />
-            <p className="font-body text-white/80 text-lg font-medium leading-relaxed">
-              Genau dieses Fundament baust du im AI Content Sprint.
-              <br />
-              <span className="text-white font-bold">Einmal.</span>
-            </p>
-            <p className="font-body text-white/55 text-base leading-relaxed mt-2">
-              Und danach arbeitet deine KI <em>für</em> deine Marke –
-              nicht gegen sie.
-            </p>
+          <div className="space-y-4 text-left max-w-lg mx-auto">
+            {[
+              "Du hast genug gelernt.",
+              "Du hast genug Tools installiert.",
+              "Du hast genug Content erstellt, der sich nicht richtig angefühlt hat.",
+            ].map((line, i) => (
+              <p key={i} className="font-body text-white/50 text-base leading-relaxed">
+                {line}
+              </p>
+            ))}
+            <div className="h-px w-16 bg-brand/30 my-6" />
+            <div className="space-y-2">
+              <p className="font-body text-white/80 text-base font-semibold">Kein Excel-Chaos mehr. Keine 20 ungeordneten GPT-Chats.</p>
+              <p className="font-body text-white/80 text-base font-semibold">Kein Workshop, nach dem du nicht weißt, wie es weitergeht.</p>
+            </div>
+            <div className="space-y-1 pt-2">
+              <p className="font-body text-white/70 text-base">Einmal das Fundament legen.</p>
+              <p className="font-body text-white/70 text-base">Einmal den Workflow aufbauen.</p>
+              <p className="font-body text-white font-bold text-lg">
+                Und dann läuft es — jeden Monat. In deiner Stimme.
+              </p>
+            </div>
           </div>
         </AnimatedSection>
 

@@ -7,6 +7,7 @@ const before = [
   "Dein Content klingt wie tausend andere – weil die KI nicht weiß, wer du bist.",
   "Du postest unregelmäßig, weil der Aufwand einfach zu groß ist.",
   "Du siehst andere wachsen und fragst dich, was die anders machen.",
+  "Du hast 30 Tage Content erstellt. Und nach Tag 30 weißt du nicht, wie es weitergeht.",
 ];
 
 const after = [
@@ -15,6 +16,7 @@ const after = [
   "Jeder Post klingt nach dir – weil die KI jetzt dein Briefing kennt.",
   "Du postest regelmäßig, weil du ein System hast, kein Chaos.",
   "Du wächst sichtbar – weil deine Stimme endlich unverwechselbar ist.",
+  "Du weißt genau, was nach dem ersten Monat kommt. Der Workflow läuft — mit oder ohne Workshop.",
 ];
 
 export default function Transformation() {
