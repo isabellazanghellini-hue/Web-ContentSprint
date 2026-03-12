@@ -7,18 +7,6 @@ import CTAButton from "@/components/shared/CTAButton";
 export default function Hero() {
   return (
     <section className="relative bg-darkbg noise-bg overflow-hidden">
-      {/* Background video */}
-      <video
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="absolute inset-0 w-full h-full object-cover opacity-[0.12] mix-blend-screen pointer-events-none"
-        style={{ zIndex: 0 }}
-      >
-        <source src="/videos/hero-bg.mp4" type="video/mp4" />
-      </video>
-
       <LampContainer>
         {/* Beta badge */}
         <motion.div
