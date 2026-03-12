@@ -1,8 +1,21 @@
 services:
   web:
     build: .
-    ports:
-      - "3000:3000"
+    expose:
+      - "3000"
     environment:
       - NODE_ENV=production
     restart: unless-stopped
+    networks:
+      - n8n_default
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.fembrand.rule=Host(`fembrand.cloud`) || Host(`www.fembrand.cloud`)"
+      - "traefik.http.routers.fembrand.entrypoints=web,websecure"
+      - "traefik.http.routers.fembrand.tls=true"
+      - "traefik.http.routers.fembrand.tls.certresolver=mytlschallenge"
+      - "traefik.http.services.fembrand.loadbalancer.server.port=3000"
+
+networks:
+  n8n_default:
+    external: true
