@@ -7,42 +7,42 @@ const modules = [
     num: "01",
     title: "Brand Voice Master-Briefing",
     intro: "Das Wichtigste zuerst.",
-    body: "Bevor du auch nur einen einzigen Post schreibst, klaeren wir: Wer bist du - in Worten, die deine KI versteht? In diesem Modul erstellst du dein persoenliches Brand Voice Briefing. Das ist kein Fragebogen, den du einmal ausfuellst und dann vergisst. Das ist das Dokument, das ab sofort bei jedem Prompt sitzt - und dafuer sorgt, dass dein Output nicht nach ChatGPT klingt. Sondern nach dir.",
+    body: "Bevor du auch nur einen einzigen Post schreibst, klären wir: Wer bist du - in Worten, die deine KI versteht? In diesem Modul erstellst du dein persönliches Brand Voice Briefing. Das ist kein Fragebogen, den du einmal ausfüllst und dann vergisst. Das ist das Dokument, das ab sofort bei jedem Prompt sitzt - und dafür sorgt, dass dein Output nicht nach ChatGPT klingt. Sondern nach dir.",
     output: "Dein fertiges Brand Voice Briefing - ein Dokument, das du ab sofort jedem KI-Prompt voranstellst.",
   },
   {
     num: "02",
     title: "Zielgruppen Deep Research",
     intro: "Nicht googeln. Wirklich verstehen.",
-    body: "Die meisten kennen ihre Zielgruppe - oberflaechlich. Frauen, 35+, selbststaendig. Toll. Das bringt dir keinen einzigen Post, der wirklich trifft. In diesem Modul gehst du tiefer. Du findest heraus, was deine Wunschkundin nachts nicht schlafen laesst. Was sie googelt, wenn niemand zuschaut. Was sie wirklich kauft - und warum. Und ploetzlich schreibst du keine Posts mehr ins Leere. Woanders kostet das extra. Hier ist es Modul 02.",
+    body: "Die meisten kennen ihre Zielgruppe - oberflächlich. Frauen, 35+, selbstständig. Toll. Das bringt dir keinen einzigen Post, der wirklich trifft. In diesem Modul gehst du tiefer. Du findest heraus, was deine Wunschkundin nachts nicht schlafen lässt. Was sie googelt, wenn niemand zuschaut. Was sie wirklich kauft - und warum. Und plötzlich schreibst du keine Posts mehr ins Leere. Woanders kostet das extra. Hier ist es Modul 02.",
     output: "Ein tiefes Zielgruppenprofil, das deine KI ab sofort bei jedem Content-Auftrag mitdenkt.",
   },
   {
     num: "03",
-    title: "Deine Content-Saeulen",
+    title: "Deine Content-Säulen",
     intro: "Kein leeres Blatt. Nie wieder.",
-    body: "Du sitzt vor Instagram und denkst: Worueber soll ich heute eigentlich schreiben? Das endet hier. In diesem Modul definierst du deine 3 bis 5 Kernthemen - klar, strategisch, zu dir passend. Ab sofort weisst du immer, worueber du sprichst. Und noch wichtiger: warum.",
-    output: "Deine definierten Content-Saeulen und ein Themenrahmen, der dir fuer jeden Monat als Kompass dient.",
+    body: "Du sitzt vor Instagram und denkst: Worüber soll ich heute eigentlich schreiben? Das endet hier. In diesem Modul definierst du deine 3 bis 5 Kernthemen - klar, strategisch, zu dir passend. Ab sofort weißt du immer, worüber du sprichst. Und noch wichtiger: warum.",
+    output: "Deine definierten Content-Säulen und ein Themenrahmen, der dir für jeden Monat als Kompass dient.",
   },
   {
     num: "04",
     title: "Content mit KI erstellen",
     intro: "Einen Monat Content. Eine Session.",
-    body: "Hier passiert das, weswegen du dabei bist. Mit deinem Brand Voice Briefing, deiner Zielgruppenkenntnis und deinen Saeulen planst du 30 Tage Content - in einer einzigen Arbeitseinheit. In deiner Sprache. Nicht in ChatGPT-Deutsch. Kein Raten. Kein Neuanfangen. Kein: das klingt doch wieder wie alle anderen. 30 Tage. Eine Session. Jeden Monat wiederholbar.",
+    body: "Hier passiert das, weswegen du dabei bist. Mit deinem Brand Voice Briefing, deiner Zielgruppenkenntnis und deinen Säulen planst du 30 Tage Content - in einer einzigen Arbeitseinheit. In deiner Sprache. Nicht in ChatGPT-Deutsch. Kein Raten. Kein Neuanfangen. Kein: das klingt doch wieder wie alle anderen. 30 Tage. Eine Session. Jeden Monat wiederholbar.",
     output: "Dein fertiger 30-Tage-Contentplan - in deiner Sprache, bereit zum Weiterverarbeiten.",
   },
   {
     num: "05",
     title: "Canva-Vorlagen vorbereiten",
     intro: "Einmal einrichten. Immer nutzen.",
-    body: "Guter Content, der visuell nicht zu dir passt - ist halb so wirksam. In diesem Modul richtest du deine Canva-Vorlagen so ein, dass jeder Post sofort nach dir aussieht. Farben, Schriften, Layouts - alles einmal festgelegt. Dann per Batch-Erstellung in Minuten befuellt. Design ohne Designstress. Branding, das in jedem Post stimmt.",
-    output: "Ein fertiges Canva-Vorlagen-Set, das du per Batch-Erstellung fuer jeden Monat befuellst.",
+    body: "Guter Content, der visuell nicht zu dir passt - ist halb so wirksam. In diesem Modul richtest du deine Canva-Vorlagen so ein, dass jeder Post sofort nach dir aussieht. Farben, Schriften, Layouts - alles einmal festgelegt. Dann per Batch-Erstellung in Minuten befüllt. Design ohne Designstress. Branding, das in jedem Post stimmt.",
+    output: "Ein fertiges Canva-Vorlagen-Set, das du per Batch-Erstellung für jeden Monat befüllst.",
   },
   {
     num: "06",
     title: "Posts fertigstellen",
     intro: "Wochencontent in unter 15 Minuten. Ja, wirklich.",
-    body: "Das klingt nach Versprechen. Ist aber System. In diesem Modul zeige ich dir, wie du deinen fertigen 30-Tage-Plan in echte Posts verwandelst - schnell, konsistent, ohne Qualitaetsverlust. Mit Canva Batch-Erstellung erstellst du mehrere Posts auf einmal, statt jeden einzeln zu bauen. Ab jetzt postest du regelmaessig. Nicht weil du musst. Weil du ein System hast, das weiterlaeuft.",
+    body: "Das klingt nach Versprechen. Ist aber System. In diesem Modul zeige ich dir, wie du deinen fertigen 30-Tage-Plan in echte Posts verwandelst - schnell, konsistent, ohne Qualitätsverlust. Mit Canva Batch-Erstellung erstellst du mehrere Posts auf einmal, statt jeden einzeln zu bauen. Ab jetzt postest du regelmäßig. Nicht weil du musst. Weil du ein System hast, das weiterläuft.",
     output: "Dein erster fertiger Wochencontent - bereit zum Posten. Und der Workflow, den du jeden Monat wiederholst.",
   },
 ];
@@ -108,10 +108,10 @@ export default function Modules() {
                   Du kennst das: Du willst endlich ein aktuelles Profilbild. Also terminierst du, suchst ein Outfit, bist den halben Tag weg - und am Ende hast du 3 Fotos, die du halbwegs magst.
                 </p>
                 <p className="font-body text-bodytext/60 text-sm leading-relaxed">
-                  Im AI Content Sprint zeige ich dir, wie du aus einem einzigen Handyfoto ein ganzes Bildportfolio erstellst. Verschiedene Looks. Verschiedene Hintergruende. Verschiedene Szenen. Professionell. Authentisch. Ohne Fotografin.
+                  Im AI Content Sprint zeige ich dir, wie du aus einem einzigen Handyfoto ein ganzes Bildportfolio erstellst. Verschiedene Looks. Verschiedene Hintergründe. Verschiedene Szenen. Professionell. Authentisch. Ohne Fotografin.
                 </p>
                 <p className="font-body text-bodytext/60 text-sm leading-relaxed">
-                  Und das Beste: Du kannst es jederzeit wiederholen - wenn du ein neues Angebot launcht, neue Farben traegst, oder einfach mal Lust auf etwas Neues hast.
+                  Und das Beste: Du kannst es jederzeit wiederholen - wenn du ein neues Angebot launcht, neue Farben trägst, oder einfach mal Lust auf etwas Neues hast.
                 </p>
                 <p className="font-body text-brand/80 text-sm font-semibold">
                   Das gibt es woanders nicht. Das ist hier inklusive.
@@ -140,7 +140,7 @@ export default function Modules() {
               </h3>
             </div>
             <p className="font-body text-bodytext/60 text-sm leading-relaxed pl-[48px]">
-              Fuer alle, die einen Schritt weitergehen wollen: Wie du deinen Content-Workflow automatisierst, sodass Posts sich fast von selbst veroeffentlichen.
+              Für alle, die einen Schritt weitergehen wollen: Wie du deinen Content-Workflow automatisierst, sodass Posts sich fast von selbst veröffentlichen.
             </p>
           </div>
         </AnimatedSection>

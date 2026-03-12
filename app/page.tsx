@@ -1,7 +1,6 @@
 import Hero from "@/components/sections/Hero";
 import Problem from "@/components/sections/Problem";
 import CoreMessage from "@/components/sections/CoreMessage";
-import Differenzierung from "@/components/sections/Differenzierung";
 import BrandOrbit from "@/components/sections/BrandOrbit";
 import Modules from "@/components/sections/Modules";
 import Transformation from "@/components/sections/Transformation";
@@ -18,8 +17,6 @@ export default function Home() {
       <Hero />
       <Problem />
       <CoreMessage />
-      <Differenzierung />
-      {/* [TESTIMONIAL HIER] */}
       <BrandOrbit />
       <Modules />
       <Transformation />

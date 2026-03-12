@@ -83,7 +83,7 @@ export default function BetaLaunch() {
         <AnimatedSection delay={0.5}>
           <div className="rounded-2xl border border-white/10 bg-white/4 p-8 mb-10 space-y-4">
             <h3 className="font-display font-bold text-white text-xl">
-              Warum 97 € statt 37 €?
+              Was du für 97 € bekommst – und warum es das wert ist.
             </h3>
             <p className="font-body text-white/65 text-[15px] leading-relaxed">
               Weil du nicht Teilnehmerin Nummer 847 in einem Videokurs bist.

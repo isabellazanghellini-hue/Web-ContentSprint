@@ -10,10 +10,9 @@ const valueItems = [
   { label: "Canva-Vorlagen-Set Social Media", value: "49 €" },
   { label: "Community & persönlicher Support (Beta)", value: "147 €" },
   { label: "BONUS: KI Fotostudio", value: "97 €" },
-  { label: "BONUS: Automation mit Make", value: "79 €" },
 ];
 
-const totalValue = "1.063 €";
+const totalValue = "984 €";
 
 export default function Pricing() {
   return (
