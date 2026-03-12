@@ -129,21 +129,6 @@ export default function Modules() {
             </div>
           </div>
         </AnimatedSection>
-
-        {/* Bonus: Automation */}
-        <AnimatedSection delay={0.72}>
-          <div className="mt-4 rounded-2xl border border-cta/25 bg-cta/5 p-6 hover:border-cta/45 hover:bg-cta/8 transition-all duration-300">
-            <div className="flex items-center gap-3 mb-2">
-              <Image src="/images/vogel-frei.png" alt="" width={36} height={36} className="flex-shrink-0" />
-              <h3 className="font-display font-bold text-bodytext text-base">
-                BONUS: Automation mit Make
-              </h3>
-            </div>
-            <p className="font-body text-bodytext/60 text-sm leading-relaxed pl-[48px]">
-              Für alle, die einen Schritt weitergehen wollen: Wie du deinen Content-Workflow automatisierst, sodass Posts sich fast von selbst veröffentlichen.
-            </p>
-          </div>
-        </AnimatedSection>
       </div>
     </section>
   );
