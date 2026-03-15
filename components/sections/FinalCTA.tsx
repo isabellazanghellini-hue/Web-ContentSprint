@@ -116,7 +116,7 @@ export default function FinalCTA() {
         <AnimatedSection delay={0.7}>
           <CTAButton size="large" />
           <p className="mt-5 font-body text-xs text-white/25 tracking-wide">
-            ★★★★★ &nbsp;Limitierte Beta-Plätze &nbsp;·&nbsp; 97&nbsp;€ statt 299&nbsp;€ &nbsp;·&nbsp; 100% Garantie
+            ★★★★★ &nbsp;Limitierte Beta-Plätze &nbsp;·&nbsp; 47&nbsp;€ statt 97&nbsp;€ &nbsp;·&nbsp; 100% Garantie
           </p>
         </AnimatedSection>
 

@@ -25,7 +25,7 @@ export default function Pricing() {
         <AnimatedSection className="text-center mb-10">
           <span className="section-label mb-4 block">Investition</span>
           <h2 className="font-display text-4xl font-bold text-white md:text-5xl">
-            97&nbsp;€ – einmalig.
+            47&nbsp;€ – einmalig.
             <br />
             <span className="text-gradient">Für ein System, das bleibt.</span>
           </h2>
@@ -57,9 +57,9 @@ export default function Pricing() {
 
             {/* Price */}
             <div className="flex items-end gap-3 mb-1 mt-6">
-              <span className="font-mono text-6xl font-bold text-white tabular-nums">97&nbsp;€</span>
+              <span className="font-mono text-6xl font-bold text-white tabular-nums">47&nbsp;€</span>
               <div className="pb-2">
-                <p className="font-mono text-sm text-white/30 line-through">299&nbsp;€</p>
+                <p className="font-mono text-sm text-white/30 line-through">97&nbsp;€</p>
                 <p className="font-mono text-xs text-brand uppercase tracking-wide">Beta-Preis</p>
               </div>
             </div>

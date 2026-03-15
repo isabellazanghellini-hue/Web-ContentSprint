@@ -78,7 +78,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 1 }}
           className="mt-5 text-center font-body text-xs text-white/30 tracking-wide"
         >
-          ★★★★★ &nbsp;Limitierte Beta-Plätze &nbsp;·&nbsp; 97&nbsp;€ statt 147&nbsp;€ &nbsp;·&nbsp; 100% Geld-zurück-Garantie
+          ★★★★★ &nbsp;Limitierte Beta-Plätze &nbsp;·&nbsp; 47&nbsp;€ statt 97&nbsp;€ &nbsp;·&nbsp; 100% Geld-zurück-Garantie
         </motion.p>
       </LampContainer>
 
