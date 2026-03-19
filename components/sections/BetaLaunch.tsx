@@ -11,10 +11,10 @@ const benefits = [
     desc: "Du bist nicht Teilnehmerin Nummer 847. Du bekommst direkten Zugang zu Isabella und kannst Fragen stellen, die wirklich beantwortet werden.",
   },
   {
-    number: "47",
+    number: "97",
     unit: "€",
     title: "Niedrigster Preis je",
-    desc: "Der Early-Bird-Preis gilt nur bis Montag. Danach steigt er auf 97 €. Wer jetzt dabei ist, sichert sich den günstigsten Einstieg – dauerhaft.",
+    desc: "Der Beta-Preis wird nie wieder so niedrig sein. Wer jetzt dabei ist, sichert sich den Einstiegspreis – dauerhaft, bevor der reguläre Preis gilt.",
   },
   {
     number: "100",
@@ -83,7 +83,7 @@ export default function BetaLaunch() {
         <AnimatedSection delay={0.5}>
           <div className="rounded-2xl border border-white/10 bg-white/4 p-8 mb-10 space-y-4">
             <h3 className="font-display font-bold text-white text-xl">
-              Was du für 47 € bekommst – und warum es das wert ist.
+              Was du für 97 € bekommst – und warum es das wert ist.
             </h3>
             <p className="font-body text-white/65 text-[15px] leading-relaxed">
               Weil du nicht Teilnehmerin Nummer 847 in einem Videokurs bist.

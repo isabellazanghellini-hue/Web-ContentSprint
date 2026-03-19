@@ -27,8 +27,8 @@ export default function CTAButton({
   }, []);
 
   const defaultLabel = expired
-    ? "→ Jetzt kaufen – Normalpreis 97 €"
-    : "→ Jetzt dabei sein – 47 € Early Bird";
+    ? "→ Jetzt kaufen – Normalpreis 147 €"
+    : "→ Jetzt dabei sein – 97 € Early Bird";
 
   const buttonLabel = label ?? defaultLabel;
 
